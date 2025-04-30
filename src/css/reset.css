@@ -1,17 +1,16 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+*,
+*::after,
+*::before {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 p:last-child {
   margin-bottom: 0;
 }
 
+ol,
 ul {
   margin: 0;
   padding: 0;
@@ -24,6 +23,7 @@ a {
 }
 
 button {
+  font-family: inherit;
   cursor: pointer;
 }
 
@@ -31,4 +31,8 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+address {
+  font-style: normal;
 }
