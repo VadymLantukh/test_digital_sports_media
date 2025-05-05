@@ -1,11 +1,11 @@
 {
-  "name": "workpiece_js",
+  "name": "test_digital_sports_media",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/workpiece_js/",
+    "build": "vite build --base=/test_digital_sports_media/",
     "preview": "vite preview"
   },
   "devDependencies": {
